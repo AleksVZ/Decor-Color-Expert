@@ -49,7 +49,7 @@
 
 }
 
-/*section first_page*/
+                                /*section first_page*/
 
 .first_page{
     background-image:url('../img/Rectangle _12_1.jpg');
@@ -103,7 +103,7 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
 }
-/*section Why us*/
+                               /*section Why us*/
 
 .whyUs{
     background-image:url('../img/Mask_Group.png');
@@ -112,11 +112,11 @@
     padding-top: 60px;
     padding-bottom: 60px;
 }
-.whyUs_wrapper{
+.container{
     max-width: 1110px;
     margin: auto;
 }
-.whyUs_wrapper h3{
+.container h3{
     margin-left: 95px;
     font-size: 24px;
     line-height: 130%;
@@ -155,8 +155,32 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
 }
+                               /* section video_reviews */
+.video_reviews{
+    background-image: url('../img/Drops2.png');
+    background-size: cover;
+    background-color: #4C6071;
+    padding-top: 60px;
+   
+}
+.video_reviews h3{
+    margin-bottom: 87px;
+}
 
-/*section form_page*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+                          /*section form_page*/
 .form_page{
     padding-bottom: 200px;
     padding-top: 21px;
