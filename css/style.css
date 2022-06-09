@@ -6,7 +6,9 @@
  /*header */
 
  header{
-    background-color: #0A246A
+    /* background-color: #0A246A */
+    position: absolute;
+    width:100%;
 }
 .wrapper{
     max-width: 1113px;
