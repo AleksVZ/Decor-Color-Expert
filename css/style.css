@@ -49,7 +49,7 @@
 
 }
 
-                                /*section first_page*/
+/*TODO section first_page*/
 
 .first_page{
     background-image:url('../img/Rectangle _12_1.jpg');
@@ -103,7 +103,8 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
 }
-                               /*section Why us*/
+
+/*TODO section Why us*/
 
 .whyUs{
     background-image:url('../img/Mask_Group.png');
@@ -156,7 +157,7 @@
     font-weight: 300;
 }
 
-                               /* section video_reviews */
+ /*  TODO section video_reviews */
 
 .video_reviews{
     background-image: url('../img/Mask_Group.png');
@@ -210,11 +211,45 @@
     font-size: 16px;
     line-height: 150%;
     color: #FFFFFF;
-    }
+}
+
+/*? Arrows */
+
+
+.owl-nav .owl-prev:before{
+    color: white;
+    font-style: normal;
+    font-variant: normal;
+    font-family: "Font Awesome 6 Free";
+    font-size: 28px;
+    font-weight: 900;
+    content: "\f060";
+    margin-right: 35px;
+
+}
+.owl-nav .owl-next:before{
+    color: white;
+    font-style: normal;
+    font-variant: normal;
+    font-family: "Font Awesome 6 Free";
+    font-size: 28px;
+    font-weight: 900;
+    content: "\f061";
+
+}
+.video_reviews{
+    position: relative;
+}
+.owl-nav {
+    position: absolute;
+    top: -105px;
+    right: 135px;
+}
 
 
 
-                          /*section form_page*/
+/* TODO section form_page*/
+
 .form_page{
     padding-bottom: 200px;
     padding-top: 21px;
